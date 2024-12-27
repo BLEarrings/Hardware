@@ -1,99 +1,209 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 3a067f6e-27d8-46f5-91e9-67d8f6f5da54)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 128.27 26.67) (size 49.53 43.815) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 8babb549-cb41-41ef-aae8-a9df69f93513)
-    (property "Sheetname" "EarringR" (at 128.27 25.9584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "EarringRight/BLEEarrings.kicad_sch" (at 128.27 71.0696 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Combine"
-        (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 207.645 80.01) (size 46.99 46.355) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid aa3c9e51-7ed9-4461-9ac1-b5f5a82b6e73)
-    (property "Sheetname" "Pendant2" (at 207.645 79.2984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Pendant/Earring.kicad_sch" (at 207.645 126.9496 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Combine"
-        (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 30.48 57.15) (size 66.675 76.2) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid c8c698fa-d816-4334-81f8-699b797e8efd)
-    (property "Sheetname" "Dock" (at 30.48 56.4384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Dock/Dock.kicad_sch" (at 30.48 133.9346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Combine"
-        (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 207.645 26.67) (size 46.99 43.18) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ce302604-6b99-4a2a-b5ad-23ee0a1d5def)
-    (property "Sheetname" "Pendant1" (at 207.645 25.9584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Pendant/Earring.kicad_sch" (at 207.645 70.4346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Combine"
-        (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54" (page "11"))
-      )
-    )
-  )
-
-  (sheet (at 128.27 79.375) (size 49.53 48.26) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid e248df4f-814c-46e0-8ef1-d7e76ca8fad7)
-    (property "Sheetname" "EarringL" (at 128.27 78.6634 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "EarringLeft/BLEEarrings.kicad_sch" (at 128.27 128.2196 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Combine"
-        (path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54" (page "7"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3a067f6e-27d8-46f5-91e9-67d8f6f5da54")
+	(paper "A4")
+	(title_block
+		(title "BLEarrings V1")
+		(date "2024-12-27")
+		(rev "00.00")
+		(company "DK")
+	)
+	(lib_symbols)
+	(sheet
+		(at 128.27 26.67)
+		(size 49.53 43.815)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8babb549-cb41-41ef-aae8-a9df69f93513")
+		(property "Sheetname" "EarringR"
+			(at 128.27 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EarringRight/BLEEarrings.kicad_sch"
+			(at 128.27 71.0696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Combine"
+				(path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.645 80.01)
+		(size 46.99 46.355)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa3c9e51-7ed9-4461-9ac1-b5f5a82b6e73")
+		(property "Sheetname" "Pendant2"
+			(at 207.645 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pendant/Earring.kicad_sch"
+			(at 207.645 126.9496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Combine"
+				(path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 57.15)
+		(size 66.675 76.2)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c8c698fa-d816-4334-81f8-699b797e8efd")
+		(property "Sheetname" "Dock"
+			(at 30.48 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Dock/Dock.kicad_sch"
+			(at 30.48 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Combine"
+				(path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.645 26.67)
+		(size 46.99 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce302604-6b99-4a2a-b5ad-23ee0a1d5def")
+		(property "Sheetname" "Pendant1"
+			(at 207.645 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pendant/Earring.kicad_sch"
+			(at 207.645 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Combine"
+				(path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 79.375)
+		(size 49.53 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e248df4f-814c-46e0-8ef1-d7e76ca8fad7")
+		(property "Sheetname" "EarringL"
+			(at 128.27 78.6634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EarringLeft/BLEEarrings.kicad_sch"
+			(at 128.27 128.2196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Combine"
+				(path "/3a067f6e-27d8-46f5-91e9-67d8f6f5da54"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
