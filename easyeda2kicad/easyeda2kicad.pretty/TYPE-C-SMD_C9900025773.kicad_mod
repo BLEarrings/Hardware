@@ -348,7 +348,7 @@
 		(remove_unused_layers no)
 		(uuid "6e52ee37-f7d3-4d43-a750-a8a7bdcd2bc3")
 	)
-	(model "${CUSTOM_PARTS}/USB-C/USBC.step"
+	(model "C:/Users/farrki01/OneDrive - Nidec/Documents/BLEarrings/Hardware/CAD/CustomParts/USB-C/USBC.step"
 		(offset
 			(xyz 0 -1.2 1.6)
 		)
